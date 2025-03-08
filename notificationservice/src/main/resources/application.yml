@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: notificationService
+
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username:
+    password:
+

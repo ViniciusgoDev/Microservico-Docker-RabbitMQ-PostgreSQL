@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: trackingService
+
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: usuariocomun
+    password: usuariocomun
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+
+
+  datasource:
+    url: ""
